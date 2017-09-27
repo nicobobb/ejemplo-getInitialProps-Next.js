@@ -13,8 +13,7 @@ class Post extends React.Component {
         return (
             <section>
                 Estás en la página: {this.props.page}
-                <p>Buscar la key: {this.props.v}</p>
-                
+                <p>Buscar la key: {this.props.v}</p>                
             </section>
         );
     }
